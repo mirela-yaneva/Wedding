@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Navigation">
+
+    <ImageButton
+        android:id="@+id/ImgBtnToDo3"
+        android:layout_width="166dp"
+        android:layout_height="191dp"
+        android:layout_margin="15dp"
+        android:layout_weight="1"
+        android:background="#7c569e"
+        android:clickable="true"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ImgBtnToDo4"
+        app:layout_constraintTop_toBottomOf="@+id/ImgBtnToDo"
+        app:srcCompat="@drawable/tips" />
+
+    <ImageButton
+        android:id="@+id/ImgBtnToDo4"
+        android:layout_width="166dp"
+        android:layout_height="191dp"
+        android:layout_margin="15dp"
+        android:layout_marginTop="34dp"
+        android:layout_weight="1"
+        android:background="#7c569e"
+        android:clickable="true"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toStartOf="@+id/ImgBtnToDo3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ImgBtnToDo"
+        app:srcCompat="@drawable/budget" />
+
+    <ImageButton
+        android:id="@+id/ImgBtnToDo5"
+        android:layout_width="166dp"
+        android:layout_height="191dp"
+        android:layout_margin="15dp"
+        android:layout_weight="1"
+        android:background="#7c569e"
+        android:clickable="true"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ImgBtnToDo2"
+        app:layout_constraintTop_toBottomOf="@+id/ImgBtnToDo3"
+        app:srcCompat="@drawable/invite" />
+
+    <ImageButton
+        android:id="@+id/ImgBtnToDo2"
+        android:layout_width="166dp"
+        android:layout_height="191dp"
+        android:layout_margin="15dp"
+        android:layout_weight="1"
+        android:background="#7c569e"
+        android:clickable="true"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toStartOf="@+id/ImgBtnToDo5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ImgBtnToDo4"
+        app:srcCompat="@drawable/guest" />
+
+    <ImageButton
+        android:id="@+id/ImgBtnToDo"
+        android:layout_width="380dp"
+        android:layout_height="220dp"
+        android:layout_margin="15dp"
+        android:layout_weight="1"
+        android:background="#7c569e"
+        android:clickable="true"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/event"
+        tools:layout_editor_absoluteY="30dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

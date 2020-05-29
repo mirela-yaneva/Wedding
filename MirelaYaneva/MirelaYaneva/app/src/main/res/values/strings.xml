@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Wedding Planner</string>
+    <string name="textWedding">Сватбен органайзер</string>
+    <string name="btnLogIn">Вход</string>
+    <string name="btnReg">Регистрация</string>
+    <string name="textEmail">E-mail</string>
+    <string name="textPass">Вашата парола</string>
+    <string name="btnEnter">Влез</string>
+    <string name="btnEnterGoogle">Влез чрез Google</string>
+    <string name="activity_main_reg">Регистрация</string>
+    <string name="btnNewReg">Регистрация</string>
+    <string name="btnTerms">Общи условия</string>
+    <string name="activity_main3_app">Избор на дейност</string>
+    <string name="ImgBtnToDo">Задачи</string>
+    <string name="ImgBtnDate">Събитие</string>
+    <string name="ImgBtnMoney">Бюджет</string>
+    <string name="ImgBtnTips">Съвети</string>
+    <string name="ImgBtnGuests">Гости</string>
+    <string name="ImgBtnInvi">Покани</string>
+    <string name="activity_main4_todo">Задачи</string>
+    <string name="txtToDoList">Вашият списък със задачи</string>
+    <string name="txtAllDay">Всичко необходимо за Вашия ден</string>
+    <string name="chkBoxDate">Избор на дата</string>
+    <string name="chkBoxMoney">Избор на бюджет</string>
+    <string name="chkBoxWriteMoney">Разчет на бюджета</string>
+    <string name="chkBoxColor">Цвят и тема на сватбата</string>
+    <string name="chkBoxFamilyName">Сменяне на фамилия</string>
+    <string name="chkBoxContract">Предбрачен договор</string>
+    <string name="chkBoxTradition">Традиции</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>
